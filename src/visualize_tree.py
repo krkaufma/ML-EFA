@@ -25,7 +25,7 @@ def visualize(args: argparse.Namespace, i_tree=0) -> None:
     """
 
     :param args: path/to/data/file.xlsx.
-    :return: feature importance, fit model, gridsearch results, and data transform mask.
+    :return: individual decision trees as png files.
     """
 
     input_ = args.input
